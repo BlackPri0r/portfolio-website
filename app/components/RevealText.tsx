@@ -1,11 +1,7 @@
 'use client'
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-
-interface RevealProps {
-    children: React.ReactNode;
-    className?: string;
-}
+import {RevealProps} from "../types/RevealProps";
 
 export default function Reveal({ children, className }: RevealProps) {
     const ref = useRef(null);
@@ -42,13 +38,13 @@ export default function Reveal({ children, className }: RevealProps) {
             </motion.div>
             <motion.div
                 variants={{
-                    hidden: {bottom: 0},
-                    visible: {bottom: "100%"}
+                    hidden: {left: 0},
+                    visible: {left: "100%"}
                 }}
                 initial="hidden"
                 animate={slideControls}
                 transition={{
-                    duration: 1,
+                    duration: 0.5,
                     ease: "easeIn"
                 }}
                 style={{
@@ -57,7 +53,7 @@ export default function Reveal({ children, className }: RevealProps) {
                     bottom: 5,
                     left: 0,
                     right: 0,    
-                    background: "white",
+                    background: "black",
                     zIndex: 20
                 }}
             
