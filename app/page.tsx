@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Reveal from "./components/RevealText";
 import CustomCursor from "./components/CustomCursor";
 import IconCloud from "./components/DynamicIconCloud";
@@ -6,37 +5,19 @@ import IconCloud from "./components/DynamicIconCloud";
 export default function Home() {
   return (
     <div>
-      <div className="h-dvh w-full justify-center flex items-center">
-        <Reveal className="text-black text-center text-9xl">Lawrence Li</Reveal>
-        {/* <CustomCursor></CustomCursor> */}
-        <IconCloud iconSlugs={
-        ["wix", 
-          "react", 
-          "typescript", 
-          "python", 
-          "godot", 
-          "github", 
-          "godotengine", 
-          "dotnet",
-          "git",
-          "java",
-          "c",
-          "leagueoflegends",
-          "tailwindcss",
-          "html5",
-          "css3",
-          "javascript",
-          "trello",
-          "jira",
-          "unity",
-          "csharp",
-          "cplusplus",
-          "linux",
-          "dota2",
-          "ubuntu",
-          "flask"
-        ]}/>
+      <div className="*:h-dvh *:w-full *:justify-center *:flex">
+        <div>
+          <div className="flex flex-col justify-center z-10 items-start overflow-x-auto">
+            <Reveal className="text-black text-left text-[12rem] leading-none -mx-2">
+              Lawrence Li
+            </Reveal>
+            <div className="text-4xl font-medium flex">
+              <Reveal className="">Second Year CS student @ UOA</Reveal>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
+  
 }
