@@ -7,13 +7,11 @@ export default function Home() {
     <div>
       <div className="*:h-dvh *:w-full *:justify-center *:flex">
         <div>
-          <div className="flex flex-col justify-center z-10 items-start overflow-x-auto">
-            <Reveal className="text-black text-left text-[12rem] leading-none -mx-2">
+          <div className="flex flex-col justify-center items-start">
+            <Reveal className="text-white text-left text-[12rem] leading-none -mx-2 -my-4">
               Lawrence Li
             </Reveal>
-            <div className="text-4xl font-medium flex">
-              <Reveal className="">Second Year CS student @ UOA</Reveal>
-            </div>
+            <Reveal className="text-white text-4xl font-medium flex">Second Year CS student @ UOA</Reveal>
           </div>
         </div>
       </div>
