@@ -53,7 +53,7 @@ export default function Reveal({ children, className }: RevealProps) {
                     bottom: 5,
                     left: 0,
                     right: 0,    
-                    background: "white",
+                    background: "#39FF14",
                     zIndex: 20
                 }}
             

@@ -7,7 +7,9 @@
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg,var(--background), #0d3420);
+  /* background: black; */
+
   font-family: Arial, Helvetica, sans-serif;
   /* cursor: none; */
 }
