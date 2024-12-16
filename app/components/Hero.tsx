@@ -16,6 +16,18 @@ export default function Hero() {
     setDropdownOpen(false);
   };
 
+  const message = () => {
+    if (selectedOption === 'Everyone'){
+      return ("Second Year CS Student @ UOA")
+    } else if (selectedOption === 'Students'){
+      return ("Test1")
+    } else if (selectedOption === 'Devs'){
+      return ("Yes1")
+    } else if (selectedOption === 'Recruiters'){
+      return ("Bruh")
+    }
+  }
+
   return (
     <>
       <div>
@@ -37,7 +49,7 @@ export default function Hero() {
               </div>
             </Reveal>
             <Reveal className="text-white bg-none text-4xl font-medium flex">
-              Second Year CS student @ UOA
+              {message()}
             </Reveal>
           </div>
         </div>
