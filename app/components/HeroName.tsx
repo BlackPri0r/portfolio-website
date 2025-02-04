@@ -1,7 +1,7 @@
 import { HeroNameProps } from "../types/HeroNameProps";
 import Reveal from "./RevealText";
 
-export default function HeroName({ selectedOption, message, toggleDropdown }: HeroNameProps) {
+export default function HeroName() {
   return (
     <div>
       <div className="flex flex-col justify-center items-start">
@@ -9,19 +9,8 @@ export default function HeroName({ selectedOption, message, toggleDropdown }: He
           Lawrence Li
         </Reveal>
         <div className="flex flex-row gap-4">
-          <Reveal>
-            <div className="relative flex gap-1">
-              <span className="text-4xl text-white">For:</span>
-              <button
-                onClick={toggleDropdown}
-                className="text-4xl text-white px-4 border-solid border-2 rounded-full"
-              >
-                {selectedOption}
-              </button>
-            </div>
-          </Reveal>
           <Reveal className="text-white bg-none text-4xl font-medium flex">
-            {message}
+            Final Year CS Student @ UOA
           </Reveal>
         </div>
       </div>
