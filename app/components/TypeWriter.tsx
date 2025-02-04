@@ -4,37 +4,48 @@ import React, { useEffect, useState } from "react";
 
 const LETTER_DELAYY = 0.025;
 const SWAP_DELAY_IN_MS = 3500;
+const LETTER_DELAY = 5;
+const ERASE_SPEED = 30;
 
 export default function TypeWrtier(){
     const [index, setIndex] = useState(0)
     const items = ["a Third Year CS Student @ UoA", "a Recovering video game addict", "Unemployed D:"]
+    const [text, setText] = useState("");
+    const [isDeleting, setIsDeleting] = useState(false);
 
     useEffect(() => {
-        const intervalId = setInterval(() =>{
-            setIndex((pv) => (pv + 1) % items.length);
-        }, SWAP_DELAY_IN_MS)
+        const currentText = items[index];
 
-        return () => clearInterval(intervalId)
-    }, [])
+        if (!isDeleting && text === currentText) {
+            setTimeout(() => setIsDeleting(true), SWAP_DELAY_IN_MS);
+            return;
+        }
 
+        if (isDeleting && text === "") {
+            setIsDeleting(false);
+            setIndex((prev) => (prev + 1) % items.length);
+            return;
+        }
+
+        const timeout = setTimeout(() => {
+            setText((prev) =>
+                isDeleting ? prev.slice(0, -1) : currentText.slice(0, prev.length + 1)
+            );
+        }, isDeleting ? ERASE_SPEED : LETTER_DELAY);
+
+        return () => clearTimeout(timeout);
+    }, [text, isDeleting, index, items]);
     return(
         <>
             <div>
                 {"I am "}
-                {items[index].split("").map((letter, key) => {
+                {text.split("").map((letter, key) => {
                     return(
                         <span className="relative" key={`${index}-${key}`}>
                             <motion.span
-                            initial={{
-                                opacity:0,
-                            }}
-                            animate={{
-                                opacity:1,
-                            }}
-                            transition={{
-                                delay: key * LETTER_DELAYY,
-                                duration: 0,
-                            }}
+                            initial={{opacity:0,}}
+                            animate={{opacity:1,}}
+                            transition={{delay: key * LETTER_DELAYY, duration: 0,}}
                             >
                                 {letter}
                             </motion.span>
@@ -55,20 +66,6 @@ export default function TypeWrtier(){
                         </span>
                     )
                 })}
-                <motion.span
-                    className="bg-white right-0 left-[1px] min-w-[4px] inset-0 ml-1"
-                    animate={{
-                        opacity: [1, 1, 0, 0]
-                    }}
-                    transition={{
-                        repeat: Infinity,
-                        duration: 1,
-                        ease: "steps(1, end)"
-                    }}
-                >
-                    |
-                </motion.span>
-
             </div>
         </>
     )
