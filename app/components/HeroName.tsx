@@ -1,5 +1,6 @@
 import { HeroNameProps } from "../types/HeroNameProps";
 import Reveal from "./RevealText";
+import TypeWrtier from "./TypeWriter";
 
 export default function HeroName() {
   return (
@@ -10,7 +11,7 @@ export default function HeroName() {
         </Reveal>
         <div className="flex flex-row gap-4">
           <Reveal className="text-white bg-none text-4xl font-medium flex">
-            Final Year CS Student @ UOA
+            <TypeWrtier/>
           </Reveal>
         </div>
       </div>
