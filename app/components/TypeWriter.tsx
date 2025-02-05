@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 
 const LETTER_DELAYY = 0.025;
 const SWAP_DELAY_IN_MS = 3500;
-const LETTER_DELAY = 5;
 const ERASE_SPEED = 30;
 
 export default function TypeWrtier(){
@@ -31,7 +30,7 @@ export default function TypeWrtier(){
             setText((prev) =>
                 isDeleting ? prev.slice(0, -1) : currentText.slice(0, prev.length + 1)
             );
-        }, isDeleting ? ERASE_SPEED : LETTER_DELAY);
+        }, isDeleting ? ERASE_SPEED : LETTER_DELAYY);
 
         return () => clearTimeout(timeout);
     }, [text, isDeleting, index, items]);
