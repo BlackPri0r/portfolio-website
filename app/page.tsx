@@ -12,9 +12,19 @@ export default function Home() {
         <div>
             <Hero/>
         </div>
-        <div>
-          s
+
+        <div className="text-white">
+          About
         </div>
+
+        <div className="text-white">
+          Projects
+        </div>
+
+        <div className="text-white">
+          contact
+        </div>
+        
       </div>
     </>
   );
