@@ -25,10 +25,14 @@ export default function Navbar() {
             }}
             animate={hidden ? "hidden": "visible"}
             transition={{duration: 0.2, ease: "easeInOut"}}
-        >
-            <SlidingTabs></SlidingTabs>
+        >   
+            <div className="flex flex-1"></div>
+
+            <div className="flex justify-center flex-1">
+                <SlidingTabs></SlidingTabs>
+            </div>
             
-            <div className="text-white flex justify-between mr-8">
+            <div className="text-white flex flex-1 justify-end mr-8">
                 <StaggerText href="https://github.com/BlackPri0r">Github</StaggerText>
                 <StaggerText href="https://www.linkedin.com/in/lawrence-li-7bb116279/">LinkedIn</StaggerText>
             </div>
