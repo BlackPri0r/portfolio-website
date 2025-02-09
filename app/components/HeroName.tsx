@@ -1,4 +1,3 @@
-import { HeroNameProps } from "../types/HeroNameProps";
 import Reveal from "./RevealText";
 import TypeWrtier from "./TypeWriter";
 

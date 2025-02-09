@@ -1,16 +1,14 @@
 'use client';
-import CustomCursor from "./components/CustomCursor";
-import IconCloud from "./components/DynamicIconCloud";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <div className="*:items-center *:flex *:justify-center *:h-dvh">
+      <Navbar />
+      <div className="flex flex-col items-center justify-center h-screen">
         <div>
-            <Hero/>
+          <Hero />
         </div>
 
         <div className="text-white">
@@ -22,11 +20,9 @@ export default function Home() {
         </div>
 
         <div className="text-white">
-          contact
+          Contact
         </div>
-        
       </div>
     </>
   );
 }
-``
