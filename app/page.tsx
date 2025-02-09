@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="*:items-center *:flex *:justify-center *:h-dvh">
         <div>
           <Hero />
         </div>
