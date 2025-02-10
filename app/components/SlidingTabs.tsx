@@ -4,6 +4,7 @@ import SlidingTabsCursor from "./SlidingTabCursor";
 
 export default function SlidingTabs() {
     const items = ["Home", "About", "Projects", "Contact"];
+    const scrollTo = [0, "#about", "#projects", "#contact"]
     const [position, setPosition] = useState({
         left: 4,
         width: 88,
@@ -13,7 +14,7 @@ export default function SlidingTabs() {
     return (
         <ul className="relative mx-auto flex rounded-full border-2 border-white p-1 my-5">
             {items.map((item, key) => (
-                <Tab setPosition={setPosition} key={key}>{item}</Tab>
+                <Tab setPosition={setPosition} key={key} scrollItem={scrollTo[key]}>{item}</Tab>
             ))}
             <SlidingTabsCursor position={position}/>
         </ul>

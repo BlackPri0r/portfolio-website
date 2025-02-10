@@ -13,8 +13,7 @@ export default function TypeWriter() {
     const [isDeleting, setIsDeleting] = useState(false);
 
     useEffect(() => {
-        const currentText = items.current[index]; // Access `items` from `useRef`
-
+        const currentText = items.current[index]; 
         if (!isDeleting && text === currentText) {
             setTimeout(() => setIsDeleting(true), SWAP_DELAY_IN_MS);
             return;
@@ -33,7 +32,7 @@ export default function TypeWriter() {
         }, isDeleting ? ERASE_SPEED : LETTER_DELAYY);
 
         return () => clearTimeout(timeout);
-    }, [text, isDeleting, index]); // Remove `items` from dependencies
+    }, [text, isDeleting, index]); 
 
     return (
         <div>

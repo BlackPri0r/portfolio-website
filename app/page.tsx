@@ -1,5 +1,6 @@
 'use client';
 import Hero from "./components/Hero";
+import LenisScroll from "./context/LenisScroll";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -11,15 +12,15 @@ export default function Home() {
           <Hero />
         </div>
 
-        <div className="text-white">
+        <div id="about" className="text-white">
           About
         </div>
 
-        <div className="text-white">
+        <div id="projects" className="text-white">
           Projects
         </div>
 
-        <div className="text-white">
+        <div id="contact" className="text-white">
           Contact
         </div>
       </div>
