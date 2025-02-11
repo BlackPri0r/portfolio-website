@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="*:items-center *:flex *:justify-center *:h-dvh">
-        <div>
+        <div id="home">
           <Hero />
         </div>
 

@@ -4,6 +4,7 @@ export type TabProps = {
     children: React.ReactNode,
     setPosition: Dispatch<SetStateAction<Position>>,
     scrollItem: string | number | HTMLElement,
+    isActive: boolean,
 };
 
 export type SlidingTabCursorProps = {

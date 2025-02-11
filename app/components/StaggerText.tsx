@@ -10,7 +10,7 @@ export default function StaggerText({children, href}: StaggerTextProps){
             whileHover="hovered"
             href={href}
             target='_blank'
-            className="relative block overflow-hidden uppercase text-2xl mx-2"
+            className="relative block overflow-hidden uppercase text-2xl mx-2 select-none"
         >   
             <div>
                 {children.split("").map((l, i) =>{

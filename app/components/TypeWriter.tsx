@@ -8,7 +8,7 @@ const ERASE_SPEED = 30;
 
 export default function TypeWriter() {
     const [index, setIndex] = useState(0);
-    const items = useRef(["a Third Year CS Student @ UoA", "a Recovering video game addict", "Unemployed D:"]); 
+    const items = useRef(["a Third Year CS Student @ UoA", "a Recovering video game addict", "Unemployed D:", "Real"]); 
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
 
