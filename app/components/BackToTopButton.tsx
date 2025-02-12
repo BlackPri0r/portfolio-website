@@ -51,7 +51,7 @@ export default function BackToTopButton() {
                 }}
             >
 
-                <Image width={64} height={64} src="./up-arrow 1.svg" alt="Back to top button" />
+                <Image width={64} height={64} src="./up-arrow.svg" alt="Back to top button" />
             </motion.div>
         </motion.button>
     )
