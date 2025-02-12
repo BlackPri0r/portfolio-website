@@ -43,7 +43,7 @@ const LenisUtilsProvider: React.FC<{ children: ReactNode }> = ({
     }
     lenis.scrollTo(target, {
       immediate: false,
-      duration: 2,
+      duration: 1.25,
     });
   };
 

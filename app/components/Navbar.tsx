@@ -21,12 +21,12 @@ export default function Navbar() {
             className="flex mx-auto justify-between items-center fixed w-full "
             variants={{
                 visible: {y: 0},
-                // hidden: {y: "-100%"},
+                hidden: {y: "-100%"},
             }}
             animate={hidden ? "hidden": "visible"}
-            transition={{duration: 0.2, ease: "easeInOut"}}
+            transition={{duration: 0.2, ease: "easeInOut",}}
         >   
-            <div className="flex flex-1"></div>
+            <div className="flex flex-1 mr-8"></div>
 
             <div className="flex justify-center flex-1">
                 <SlidingTabs></SlidingTabs>
