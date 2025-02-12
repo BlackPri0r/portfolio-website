@@ -2,6 +2,8 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion"
 import { useState } from "react"
 import { useLenisUtils } from "../context/LenisScroll"
+import Image from 'next/image'
+
 
 
 export default function BackToTopButton() {
@@ -20,7 +22,7 @@ export default function BackToTopButton() {
 
     return(
         <motion.button 
-            className="text-white fixed z-20 bottom-10 right-10 cursor-pointer"
+            className="text-white fixed z-20 bottom-6 right-8 cursor-pointer"
             initial={{
                 opacity: 0, 
                 y: "initial"
@@ -49,7 +51,7 @@ export default function BackToTopButton() {
                 }}
             >
 
-                <img className="w-16 h-16" src="./up-arrow 1.svg" alt="Back to top" />
+                <Image width={64} height={64} src="./up-arrow 1.svg" alt="Back to top button" />
             </motion.div>
         </motion.button>
     )
