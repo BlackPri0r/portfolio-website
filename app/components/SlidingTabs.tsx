@@ -41,13 +41,13 @@ export default function SlidingTabs() {
     
 
     return (
-        <ul className="relative mx-auto flex rounded-full border-2 border-white p-1 my-5">
+        <ul className="relative mx-auto flex rounded-full border-2 border-white p-1 my-5 z-10">
             {items.map((item, key) => (
                 <Tab 
                     setPosition={setPosition} 
                     key={key} 
                     scrollItem={scrollTo[key]} 
-                    isActive={activeIndex === key} // Pass active state
+                    isActive={activeIndex === key}
                 >
                     {item}
             </Tab>

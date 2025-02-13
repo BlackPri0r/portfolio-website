@@ -1,0 +1,10 @@
+import Reveal from "./RevealText";
+
+export default function AboutHeader() {
+    return (
+        <div className="flex items-center gap-10 w-full">
+            <Reveal className="text-7xl font-bold">About</Reveal>
+            <div className="flex-grow h-px bg-gray-300"></div>
+        </div>
+    );
+}
