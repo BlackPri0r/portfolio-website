@@ -1,5 +1,4 @@
 'use client';
-import { Cloud } from "react-icon-cloud";
 import BackToTopButton from "./components/BackToTopButton";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
