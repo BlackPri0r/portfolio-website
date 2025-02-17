@@ -1,14 +1,26 @@
 import AboutHeader from "./AboutHeader";
 import ExperienceDetail from "./ExperienceDetail";
-import ExperienceList from "./ExperienceList";
+import ExperienceListItem from "./ExperienceListItems";
+import experience from "../data/experience.json"
+import { useState } from "react";
 
 export default function About() {
+    const [active, setActive] = useState("cosmoshop");
+
+    const handleActive = (item: string) => {
+        setActive(item)
+    }
+
     return (
         <section className="max-w-6xl w-full pt-36">
             <AboutHeader />
-            <div className="flex">
-                <ExperienceList></ExperienceList>
-                <ExperienceDetail></ExperienceDetail>
+            <div className="flex justify-between">
+                <div className="text-white">
+                    {experience.map((experience, key) => 
+                        <ExperienceListItem id={experience.id} handleActive={handleActive} key={key} subtitle={experience.subtitle}>{experience.title}</ExperienceListItem>
+                    )}
+                </div>
+                <ExperienceDetail active={active}/>
             </div>
         </section>
     );

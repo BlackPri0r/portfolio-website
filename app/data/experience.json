@@ -1,22 +1,26 @@
 [
     {
         "title": "Web Developer",
-        "description": "Yap",
-        "subtitle": "Cosmoshop | 2024 - Present"
+        "description": "Cosmoshop",
+        "subtitle": "Cosmoshop | 2024 - Present",
+        "id" : "cosmoshop"
     },
     {
         "title": "Co Founder and Lead",
-        "description": "Yap",
-        "subtitle": "Mad Rat Interactive | 2024 - Present"
+        "description": "Mad Rat",
+        "subtitle": "Mad Rat Interactive | 2024 - Present",
+        "id" : "madrat"
     },
     {
         "title": "Studying Computer Science",
-        "description": "Yap",
-        "subtitle": "University of Auckland | 2023 - Present"
+        "description": "Compsci",
+        "subtitle": "University of Auckland | 2023 - Present",
+        "id" : "uoa"
     },
     {
         "title": "Highschool Student",
-        "description": "Yap",
-        "subtitle": "Rutherford College | 2018 - 2022"
+        "description": "Rutherford",
+        "subtitle": "Rutherford College | 2018 - 2022",
+        "id" : "highschool"
     }
 ]
