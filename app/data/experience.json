@@ -1,25 +1,25 @@
 [
     {
         "title": "Web Developer",
-        "description": "Cosmoshop",
+        "description": "Midway through 2024, I joined the web development team at Cosmoshop to help contribute to a special project they were working on. Since then, I’ve continued to work with the team, gaining valuable experience and connections while working on their project.",
         "subtitle": "Cosmoshop | 2024 - Present",
         "id" : "cosmoshop"
     },
     {
         "title": "Co Founder and Lead",
-        "description": "Mad Rat",
+        "description": "In early 2024, a few of my university friends and I founded an indie game studio called Mad Rat, with the goal of competing in game jams. We wanted to challenge ourselves creatively, working together to develop unique and innovative games under tight deadlines. It was an exciting opportunity to sharpen our skills, experiment with new ideas, and share our passion for gaming with a wider audience.",
         "subtitle": "Mad Rat Interactive | 2024 - Present",
         "id" : "madrat"
     },
     {
         "title": "Studying Computer Science",
-        "description": "Compsci",
+        "description": "In 2023, I started my first year at University of Auckland studying Computer Science, and now I'm in my final year, continuing to expand my skills in programming and technology. I started off with a small passion for game development, but through friends and projects, I discovered an interest in other fields like web development. Since then, I've been exploring different technologies and working on projects to sharpen my skills.",
         "subtitle": "University of Auckland | 2023 - Present",
         "id" : "uoa"
     },
     {
         "title": "Highschool Student",
-        "description": "Rutherford",
+        "description": "Throughout high school, I was part of the mechatronics team, where I developed a strong interest in technology and programming. I also helped compete in the EVolocity competition, working on electric vehicle development.",
         "subtitle": "Rutherford College | 2018 - 2022",
         "id" : "highschool"
     }

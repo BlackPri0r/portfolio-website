@@ -15,7 +15,7 @@ export default function About() {
         <section className="max-w-6xl w-full pt-36">
             <AboutHeader />
             <div className="flex justify-between">
-                <div className="text-white">
+                <div className="text-white flex flex-col gap-10">
                     {experience.map((experience, key) => 
                         <ExperienceListItem id={experience.id} handleActive={handleActive} key={key} subtitle={experience.subtitle}>{experience.title}</ExperienceListItem>
                     )}
