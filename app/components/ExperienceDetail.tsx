@@ -1,5 +1,7 @@
 import experience from "../data/experience.json";
+import { ExperienceDetailsProps } from "../types/ExperienceProps";
 import Reveal from "./RevealText";
+import Stack from "./Stack";
 
 export default function ExperienceDetail({ active }: ExperienceDetailsProps) {
     const selectedExperience = experience.find(exp => exp.id === active);
@@ -11,9 +13,7 @@ export default function ExperienceDetail({ active }: ExperienceDetailsProps) {
                     {selectedExperience?.description}
                 </Reveal>
             </div>
-            <div className="border-1 border-white">
-                Stack
-            </div>
+            <Stack></Stack>
         </div>
     )
 }
