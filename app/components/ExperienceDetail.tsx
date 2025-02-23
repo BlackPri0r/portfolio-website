@@ -13,7 +13,7 @@ export default function ExperienceDetail({ active }: ExperienceDetailsProps) {
                     {selectedExperience?.description}
                 </Reveal>
             </div>
-            <Stack></Stack>
+            <Stack/>
         </div>
     )
 }

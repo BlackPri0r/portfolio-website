@@ -3,6 +3,7 @@ import BackToTopButton from "./components/BackToTopButton";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import ProjectShowcase from "./components/ProjectShowcase";
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
           <About></About>
         </div>
 
-        <div id="projects" className="text-white h-dvh">
-          Projects
+        <div id="projects" className="text-white">
+          <ProjectShowcase></ProjectShowcase>
         </div>
 
         <div id="contact" className="text-white h-dvh">
