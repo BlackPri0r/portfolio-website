@@ -8,7 +8,7 @@ export default function ProjectShowcase() {
                 <div className="flex-grow h-px bg-gray-300"></div>
                 <Reveal className="text-7xl font-bold">Projects</Reveal>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 content-center gap-10">
                 <ProjectCard></ProjectCard>
                 <ProjectCard></ProjectCard>
                 <ProjectCard></ProjectCard>
