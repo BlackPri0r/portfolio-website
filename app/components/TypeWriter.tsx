@@ -40,7 +40,7 @@ export default function TypeWriter() {
             {text.split("").map((letter, key) => (
                 <span className="relative" key={`${index}-${key}`}>
                     <motion.span
-                        className="text-[#39FF14]"
+                        className="text-white"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: key * LETTER_DELAYY, duration: 0 }}
