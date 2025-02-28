@@ -28,7 +28,7 @@ export default function Reveal({ children, className }: RevealProps) {
                 }}
                 transition={{
                     duration: 0.5,
-                    delay: 0.5
+                    delay: 0.6
                 }}
                 initial="hidden"
                 animate={mainControls}

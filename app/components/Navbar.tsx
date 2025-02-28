@@ -6,6 +6,7 @@ import StaggerText from "./StaggerText";
 export default function Navbar() {
     const { scrollY } = useScroll();
     const [hidden, setHidden] = useState(false);
+    const [isFirstRender, setFirstRender] = useState(true);
 
     useMotionValueEvent(scrollY, "change", (latest) => {
         const previous = scrollY.getPrevious();
@@ -18,13 +19,19 @@ export default function Navbar() {
 
     return(
         <motion.nav 
-            className="flex mx-auto justify-between items-center fixed w-full "
+            className="flex mx-auto justify-between items-center fixed w-full z-10 backdrop-blur-xl"
+            initial="hidden"
             variants={{
                 visible: {y: 0},
                 hidden: {y: "-100%"},
             }}
             animate={hidden ? "hidden": "visible"}
-            transition={{duration: 0.2, ease: "easeInOut",}}
+            transition={{
+                duration: isFirstRender? 0.5: 0.2, 
+                ease: "easeInOut",
+                delay: isFirstRender? 0.5: 0,
+            }}
+            onAnimationComplete={() => setFirstRender(false)}
         >   
             <div className="flex flex-1 mr-8"></div>
 
