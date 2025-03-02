@@ -28,8 +28,8 @@ export default function Navbar() {
             animate={hidden ? "hidden": "visible"}
             transition={{
                 duration: isFirstRender? 0.5: 0.2, 
-                ease: "easeInOut",
-                delay: isFirstRender? 0.5: 0,
+                ease: isFirstRender? [0.5, 1, 0.89, 1] : "easeInOut",
+                delay: isFirstRender? 1: 0,
             }}
             onAnimationComplete={() => setFirstRender(false)}
         >   

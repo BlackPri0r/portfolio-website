@@ -12,14 +12,14 @@ export default function AboutTextAppear({ children, className }: RevealProps) {
                 key={children as React.Key}
                 className={className}
                 variants={{
-                    hidden: { opacity: 0, y: 75 },
+                    hidden: { opacity: 0, y: 10 },
                     visible: { opacity: 1, y: 0 },
                 }}
                 initial="hidden"
                 animate="visible"
                 exit="hidden"
                 transition={{
-                    duration: 1,
+                    duration: 1.25,
                     ease: [0.25, 1, 0.5, 1]
                 }}
             >
