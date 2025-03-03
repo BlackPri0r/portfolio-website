@@ -1,30 +1,30 @@
 [
     {
-        "name": "",
-        "stack": "",
-        "description": "",
-        "repository": "",
-        "liveSite": ""
+        "name": "Title 1",
+        "stack": "Stack",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+        "repository": "Repo",
+        "liveSite": "Live"
     },
     {
-        "name": "",
-        "stack": "",
-        "description": "",
-        "repository": "",
-        "liveSite": ""
+        "name": "Title 2",
+        "stack": "Stack - Stack",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+        "repository": "Repo",
+        "liveSite": "Live"
     },
     {
-        "name": "",
-        "stack": "",
-        "description": "",
-        "repository": "",
-        "liveSite": ""
+        "name": "Title 3",
+        "stack": "Stack - Stack - Stack",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+        "repository": "Repo",
+        "liveSite": "Live"
     },
     {
-        "name": "",
-        "stack": "",
-        "description": "",
-        "repository": "",
-        "liveSite": ""
+        "name": "Title 4",
+        "stack": "Stack - Stack - Stack",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+        "repository": "Repo",
+        "liveSite": "Live"
     }
 ]
