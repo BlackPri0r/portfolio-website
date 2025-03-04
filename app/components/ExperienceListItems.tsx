@@ -4,7 +4,7 @@ import Reveal from "./RevealText";
 export default function ExperienceListItem({children, subtitle, handleActive, id}: ExperienceListItemProps) {
     return(
         <div className="cursor-pointer" onClick={() => handleActive(id)}>
-            <div className="p-5 text-2xl border-1 border-white rounded-2xl">
+            <div className="p-5 text-2xl rounded-2xl border-1">
 
                 <div className="w-fit">
                     <Reveal>

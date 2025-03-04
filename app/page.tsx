@@ -16,18 +16,17 @@ export default function Home() {
           <Hero />
         </div>
 
-        <div id="about" className="text-white">
+        <div id="about" className="text-white mb-30">
           <About></About>
         </div>
 
-        <div id="projects" className="text-white">
+        <div id="projects" className="text-white mb-35">
           <ProjectShowcase></ProjectShowcase>
         </div>
 
-        <div id="contact" className="text-white ">
+        <div id="contact" className="text-white mb-35">
           <Contact></Contact>
         </div>
-        <div className="h-dvh"></div>
       </div>
     </>
   );
