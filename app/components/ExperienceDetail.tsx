@@ -9,7 +9,7 @@ export default function ExperienceDetail({ active }: ExperienceDetailsProps) {
     
     return(
         <div className="flex flex-col justify-between max-w-[650px] overflow-y-auto">
-            <div className="border-1 boder-white p-10 rounded-2xl h-full mb-5">
+            <div className="border border-gray-300/20 p-10 rounded-2xl h-full mb-5">
                 <Reveal className="text-xl">
                     <AboutTextAppear>
                         {selectedExperience?.description}

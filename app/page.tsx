@@ -20,7 +20,7 @@ export default function Home() {
           <About></About>
         </div>
 
-        <div id="projects" className="text-white mb-35">
+        <div id="projects" className="text-white mb-25">
           <ProjectShowcase></ProjectShowcase>
         </div>
 
