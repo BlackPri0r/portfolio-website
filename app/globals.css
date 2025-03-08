@@ -1,9 +1,5 @@
 @import 'tailwindcss';
 
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-}
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
@@ -25,7 +21,7 @@
 
 :root {
   --background: rgb(20, 20, 20);
-  --gradient: rgb(7, 7, 7);
+  --gradient: rgb(15, 15, 15);
 }
 
 body {

@@ -1,28 +1,28 @@
 [
     {
-        "name": "Title 1",
-        "stack": "Stack",
+        "name": "Nameless King",
+        "stack": "Godot - GDScript - Aseprite - Itch.io",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
         "repository": "Repo",
         "liveSite": "Live"
     },
     {
-        "name": "Title 2",
-        "stack": "Stack - Stack",
+        "name": "Ouroboros",
+        "stack": "Godot - GDScript - Aseprite - Itch.io",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
         "repository": "Repo",
         "liveSite": "Live"
     },
     {
-        "name": "Title 3",
-        "stack": "Stack - Stack - Stack",
+        "name": "Caesar Cipher Webapp",
+        "stack": "Node.js - React - Javascript",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
         "repository": "Repo",
         "liveSite": "Live"
     },
     {
-        "name": "Title 4",
-        "stack": "Stack - Stack - Stack",
+        "name": "Advice Generator App",
+        "stack": "Node.js - React - Typescript - REST API - TailwindCSS",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
         "repository": "Repo",
         "liveSite": "Live"
