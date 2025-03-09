@@ -35,7 +35,7 @@ export default function TypeWriter() {
     }, [text, isDeleting, index]); 
 
     return (
-        <div>
+        <div className="text-[2vw]">
             {"I am "}
             {text.split("").map((letter, key) => (
                 <span className="relative" key={`${index}-${key}`}>

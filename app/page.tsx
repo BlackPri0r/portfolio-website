@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <BackToTopButton/>
       <div className="*:items-center *:flex *:justify-center ">
         <div id="home" className="h-dvh">

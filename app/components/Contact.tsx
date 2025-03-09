@@ -1,3 +1,4 @@
+import Appear from "./Appear";
 import { ContactUs } from "./ContactUs";
 import Reveal from "./RevealText";
 
@@ -9,9 +10,9 @@ export default function Contact() {
                 <Reveal className="text-7xl font-bold">Contact</Reveal>
                 <div className="flex-grow h-px bg-gray-300"></div>
             </div>
-            <div className="justify-center flex">
+            <Appear className="justify-center flex">
                 <ContactUs/>
-            </div>
+            </Appear>
         </section>
     )
 }

@@ -31,7 +31,7 @@ export default function Tab({children, setPosition, scrollItem, isActive}: TabPr
                 handleScrollTo(scrollItem)
 
             }}
-            className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base select-none"
+            className="relative z-10 block cursor-pointer uppercase text-white mix-blend-difference px-5 py-3 text-base select-none"
         >
             {children}
         </li>

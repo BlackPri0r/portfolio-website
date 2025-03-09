@@ -12,9 +12,9 @@ export default function About() {
     }
 
     return (
-        <section className="max-w-6xl w-full pt-36">
+        <section className="max-w-6xl w-full md:pt-36">
             <AboutHeader />
-            <div className="flex justify-between">
+            <div className="flex md:justify-between justify-center">
                 <div className="text-white flex flex-col gap-10">
                     {experience.map((experience, key) => 
                         <ExperienceListItem 
@@ -26,7 +26,7 @@ export default function About() {
                             {experience.title}
                         </ExperienceListItem>
                     )}
-                </div>  
+                </div>
                 <ExperienceDetail active={active}/>
             </div>
         </section>

@@ -2,29 +2,33 @@
     {
         "name": "Nameless King",
         "stack": "Godot - GDScript - Aseprite - Itch.io",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-        "repository": "Repo",
-        "liveSite": "Live"
+        "description": "Story-driven fantasy action game built in Godot using GDScript, developed over 2 months for a game jam hosted by UoAGDG. Led the project, overseeing design, development, and implementation of core mechanics.",
+        "repository": "https://github.com/Mad-Rat-Interactive/Nameless-King",
+        "liveSite": "https://mad-rat-interactive.itch.io/nameless-king",
+        "image": "./namelessking.png"
     },
     {
         "name": "Ouroboros",
         "stack": "Godot - GDScript - Aseprite - Itch.io",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-        "repository": "Repo",
-        "liveSite": "Live"
+        "description": "Horror-heavy 2D story game built in Godot over 2 days for Kiwijam, a weekend game jam focused on rapid game development. Acted as project manager and contributed to development.",
+        "repository": "https://github.com/RuffByte/Ouroboros",
+        "liveSite": "https://ruffbyte.itch.io/ouroboros",
+        "image": "./ouroboros.png"
     },
     {
         "name": "Caesar Cipher Webapp",
         "stack": "Node.js - React - Javascript",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-        "repository": "Repo",
-        "liveSite": "Live"
+        "description": "My first React web app, built as part of COMPSCI 215 to encrypt and decrypt text using the classic Caesar cipher algorithm. Designed a simple interface for easy cipher interaction.",
+        "repository": "https://github.com/BlackPri0r/Caesar-Cipher",
+        "liveSite": "https://blackpri0r.github.io/Caesar-Cipher/",
+        "image": "./caesarcipher.png"
     },
     {
         "name": "Advice Generator App",
         "stack": "Node.js - React - Typescript - REST API - TailwindCSS",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-        "repository": "Repo",
-        "liveSite": "Live"
+        "description": "A simple web app built for a Frontend Mentor challenge. Generates random advice using the Advice API. Implemented the given design with a focus on functionality.",
+        "repository": "https://github.com/BlackPri0r/advice-generator",
+        "liveSite": "https://blackpri0r.github.io/advice-generator/",
+        "image": "./advicegenerator.png"
     }
 ]

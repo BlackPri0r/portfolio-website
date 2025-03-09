@@ -22,7 +22,7 @@ export default function BackToTopButton() {
 
     return(
         <motion.button 
-            className="text-white fixed z-20 bottom-6 right-8 cursor-pointer"
+            className="text-white fixed z-20 bottom-6 md:right-8 cursor-pointer right-4"
             initial={{
                 opacity: 0, 
                 y: "initial"

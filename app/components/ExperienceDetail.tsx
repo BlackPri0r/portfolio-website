@@ -6,17 +6,17 @@ import Stack from "./Stack";
 
 export default function ExperienceDetail({ active }: ExperienceDetailsProps) {
     const selectedExperience = experience.find(exp => exp.id === active);
-    
-    return(
-        <div className="flex flex-col justify-between max-w-[650px] overflow-y-auto">
-            <div className="border border-gray-300/20 p-10 rounded-2xl h-full mb-5">
+
+    return (
+        <div className="hidden md:flex flex-col justify-between w-full md:max-w-[650px] overflow-y-auto md:overflow-hidden">
+            <div className="border border-gray-300/20 p-10 rounded-2xl mb-5 h-full">
                 <Reveal className="text-xl">
                     <AboutTextAppear>
                         {selectedExperience?.description}
                     </AboutTextAppear>
                 </Reveal>
             </div>
-            <Stack/>
+            <Stack />
         </div>
-    )
+    );
 }

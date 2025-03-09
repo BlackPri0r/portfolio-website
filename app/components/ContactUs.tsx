@@ -33,7 +33,7 @@ export const ContactUs = () => {
   return (
     <section className='flex flex-col border-1 rounded-xl p-10 w-full'>
       <form className='flex flex-col gap-8' ref={form} onSubmit={sendEmail}>
-        <div className='flex justify-between gap-20'>
+        <div className='flex flex-col md:flex-row justify-between gap-20'>
           <div className='flex flex-col text-2xl w-full'>
             <label>Name</label>
             <input className='border-b-1 h-12' type="text" name="user_name" required />

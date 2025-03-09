@@ -9,8 +9,8 @@ export default function SlidingTabsCursor({position}: SlidingTabCursorProps) {
         }
         transition={{
             duration: 1.25,
-            ease: [0.22, 1, 0.36, 1], // Smooth cubic bezier animation
+            ease: [0.22, 1, 0.36, 1],
         }}
-        className="absolute z-0 h-7 rounded-full w-22 bg-white md:h-12"/>
+        className="absolute z-0 rounded-full w-22 bg-white h-12"/>
     )
 }

@@ -4,4 +4,5 @@ export type ProjectProps = {
     description: string,
     repository: string,
     liveSite: string,
+    image: string,
 }

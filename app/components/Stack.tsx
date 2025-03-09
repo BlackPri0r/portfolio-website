@@ -9,7 +9,7 @@ export default function Stack() {
             <div className="w-full flex items-center gap-8">
                 <div className="flex-grow h-px bg-gray-300"></div>
                 <Reveal className="text-4xl text-bold">
-                Tools & Skills
+                    Tools & Skills
                 </Reveal>
                 <div className="flex-grow h-px bg-gray-300"></div>
             </div>

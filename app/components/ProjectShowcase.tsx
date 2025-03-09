@@ -9,7 +9,7 @@ export default function ProjectShowcase() {
                 <div className="flex-grow h-px bg-gray-300"></div>
                 <Reveal className="text-7xl font-bold">Projects</Reveal>
             </div>
-            <div className="grid grid-cols-2 content-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 content-center gap-10">
                 {projects.map((project, key) =>
                     <ProjectCard 
                         key={key}
@@ -18,6 +18,7 @@ export default function ProjectShowcase() {
                         description={project.description}
                         repository={project.repository}
                         liveSite={project.liveSite}
+                        image={project.image}
                     ></ProjectCard>
                 )}
             </div>
