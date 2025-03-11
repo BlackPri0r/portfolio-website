@@ -28,7 +28,7 @@ export default function Navbar() {
 
     return (
         <motion.nav 
-            className="flex mx-auto justify-between items-center fixed w-full z-10 backdrop-blur-xl"
+            className="flex mx-auto justify-between items-center fixed w-full z-20"
             initial="hidden"
             variants={{
                 visible: { y: 0 },

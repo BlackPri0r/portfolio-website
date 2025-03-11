@@ -4,8 +4,9 @@ import HeroName from "./HeroName";
 export default function Hero() {
   return (
     <>
-    <div className="flex flex-col">
+    <div className="flex">
       <HeroName/>
+      <img src="./souls.gif" className="scale-x-[-1]"></img>
     </div>
     </>
   );
