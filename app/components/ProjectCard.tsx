@@ -5,8 +5,8 @@ import Reveal from "./RevealText";
 
 const hoverEffect = {
     hover: { 
-        rotate: 2,
-        scale: 1.05
+        rotate: 0,
+        scale: 1
     },
 };
 
@@ -14,11 +14,15 @@ export default function ProjectCard({name, stack, description, repository, liveS
     return(
         <Appear className=" flex flex-col justify-center items-center">
             <motion.a 
-                className="relative rounded-xl w-full h-[320px] bg-black overflow-hidden"
+                className="relative w-full h-[320px] border-b-2 overflow-hidden"
                 href={liveSite}
                 whileHover="hover"
             >
-                <motion.img 
+                <motion.img
+                    initial={{
+                        rotate: 2,
+                        scale: 1.05
+                    }} 
                     src={image} 
                     className="absolute bottom-0 left-1/2 -translate-x-1/2 object-contain max-h-[calc(100%-20px)] max-w-[calc(100%-60px)]"
                     variants={hoverEffect}

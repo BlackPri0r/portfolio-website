@@ -11,6 +11,6 @@ export default function SlidingTabsCursor({position}: SlidingTabCursorProps) {
             duration: 1.25,
             ease: [0.22, 1, 0.36, 1],
         }}
-        className="absolute z-0  w-22 bg-white h-10"/>
+        className="absolute z-0  w-22 bg-white h-9"/>
     )
 }

@@ -1,7 +1,7 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import SlidingTabs from "./SlidingTabs";
 import { useState, useEffect } from "react";
-import StaggerText from "./StaggerText";
+import ExternalLink from "./ExternalLinks";
 
 export default function Navbar() {
     const { scrollY } = useScroll();
@@ -60,8 +60,8 @@ export default function Navbar() {
                     </>
                 ) : (
                     <>
-                        <StaggerText href="https://github.com/BlackPri0r">Github</StaggerText>
-                        <StaggerText href="https://www.linkedin.com/in/lawrence-li-7bb116279/">LinkedIn</StaggerText>
+                        <ExternalLink link="https://github.com/BlackPri0r">Github</ExternalLink>
+                        <ExternalLink link="https://www.linkedin.com/in/lawrence-li-7bb116279/">LinkedIn</ExternalLink>
                     </>
                 )}
             </div>

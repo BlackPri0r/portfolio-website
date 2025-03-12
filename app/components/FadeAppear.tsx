@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import {RevealProps} from "../types/RevealProps";
 
-export default function Reveal({ children, className }: RevealProps) {
+export default function FadeAppear({ children, className }: RevealProps) {
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});
     
@@ -19,16 +19,16 @@ export default function Reveal({ children, className }: RevealProps) {
 
 
     return (
-        <div ref={ref} className=" relative">
+        <div ref={ref} className="relative">
             <motion.div
                 className={className}
                 variants={{
-                    hidden: { opacity: 0, y: 30 },
+                    hidden: { opacity: 0, y: 20 },
                     visible: { opacity: 1, y: 0 }
                 }}
                 transition={{
                     duration: 0.5,
-                    delay: 0.6
+                    delay: 1
                 }}
                 initial="hidden"
                 animate={mainControls}
@@ -36,28 +36,6 @@ export default function Reveal({ children, className }: RevealProps) {
             >
                 {children}
             </motion.div>
-            <motion.div
-                variants={{
-                    hidden: {left: 0},
-                    visible: {left: "100%"}
-                }}
-                initial="hidden"
-                animate={slideControls}
-                transition={{
-                    duration: 0.5,
-                    ease: "easeIn"
-                }}
-                style={{
-                    position: "absolute",
-                    top: 5,
-                    bottom: 5,
-                    left: 0,
-                    right: 0,    
-                    background: "orange",
-                    zIndex: 20
-                }}
-            
-            />
         </div>
     );
 }

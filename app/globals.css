@@ -1,6 +1,26 @@
 @import 'tailwindcss';
 
 
+@font-face {
+  font-family: 'Offbit';
+  src: url('./fonts/OffBitTrial-Regular.ttf') format('ttf'),
+       url('./fonts/OffBitTrial-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Offbit';
+  src: url('./fonts/OffBitTrial-Bold.ttf') format('ttf'),
+       url('./fonts/OffBitTrial-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-offbit {
+  font-family: 'Offbit', sans-serif;
+}
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
@@ -48,8 +68,6 @@ body {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
-  border: 1px solid hsla(0, 0%, 100%, 0.2);
   transition: all 0.5s ease;
 }
 
