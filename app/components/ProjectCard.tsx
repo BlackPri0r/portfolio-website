@@ -17,6 +17,7 @@ export default function ProjectCard({name, stack, description, repository, liveS
                 className="relative w-full h-[320px] border-b-2 overflow-hidden"
                 href={liveSite}
                 whileHover="hover"
+                target="_blank"
             >
                 <motion.img
                     initial={{

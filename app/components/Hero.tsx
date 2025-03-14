@@ -2,6 +2,7 @@ import React from "react";
 import HeroName from "./HeroName";
 import FadeAppear from "./FadeAppear";
 import HeroSectioner from "./HeroSectioner";
+import HeroBox from "./HeroBox";
 
 export default function Hero() {
   return (
@@ -13,20 +14,17 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center gap-4 text-2xl">
-          <FadeAppear className="border-2 px-4 py-1">
+          <FadeAppear
+            delay={1} 
+            className="border-2 px-4 py-1"
+          >
             Third Year Computer Science @ UoA
           </FadeAppear>
         </div>
       </div>
       
       <HeroSectioner></HeroSectioner>
-
-      <div className="border-2 text-2xl p-8 mx-30">
-        &gt; I do web dev
-        <div>
-          also unemployed D:
-        </div>
-      </div>
+      <HeroBox></HeroBox>
 
 
     </div>

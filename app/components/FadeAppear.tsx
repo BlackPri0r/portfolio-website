@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import {RevealProps} from "../types/RevealProps";
 
-export default function FadeAppear({ children, className }: RevealProps) {
+export default function FadeAppear({ children, className, delay}: RevealProps) {
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});
     
@@ -28,7 +28,7 @@ export default function FadeAppear({ children, className }: RevealProps) {
                 }}
                 transition={{
                     duration: 0.5,
-                    delay: 1
+                    delay: delay
                 }}
                 initial="hidden"
                 animate={mainControls}
