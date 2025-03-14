@@ -32,7 +32,7 @@ export default function ProjectCard({name, stack, description, repository, liveS
             <div className="my-6 w-full">
                 <Reveal className="flex items-center gap-4">
                     <div className="text-2xl font-bold">{name}</div>
-                    <div className="flex-grow h-px bg-gray-300"></div>
+                    <div className="flex-grow h-[2px] bg-gray-300"></div>
                     
                     <a href={repository} target="_blank">
                         <img className="invert w-8 h-8" src="./githubicon.svg"></img>

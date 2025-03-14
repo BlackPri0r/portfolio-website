@@ -45,11 +45,11 @@ export const ContactUs = () => {
         </div>
         <div className='text-2xl flex-col flex gap-5'>
           <label>Message</label>
-          <textarea className='border-1 rounded-lg h-72 p-2 text-2xl' name="message" required />
+          <textarea className='border-1  h-72 p-2 text-2xl' name="message" required />
         </div>
         <div className='justify-center flex'>
           <input
-            className={`cursor-pointer border-1 rounded-full w-48 p-4 text-2xl ${isSending ? 'opacity-50 cursor-not-allowed' : ''}`}
+            className={`cursor-pointer border-1  w-48 p-4 text-2xl ${isSending ? 'opacity-50 cursor-not-allowed' : ''}`}
             type="submit"
             value={isSending ? 'Sending...' : 'Send'}
             disabled={isSending}

@@ -1,4 +1,4 @@
-type ExternalLinkProps = {
+export type ExternalLinkProps = {
     children: React.ReactNode,
     link: string,
 }
