@@ -5,8 +5,8 @@ import Reveal from "./RevealText";
 
 const hoverEffect = {
     hover: { 
-        rotate: 0,
-        scale: 1
+        rotate: 2,
+        scale: 1.05
     },
 };
 
@@ -20,10 +20,6 @@ export default function ProjectCard({name, stack, description, repository, liveS
                 target="_blank"
             >
                 <motion.img
-                    initial={{
-                        rotate: 2,
-                        scale: 1.05
-                    }} 
                     src={image} 
                     className="absolute bottom-0 left-1/2 -translate-x-1/2 object-contain max-h-[calc(100%-20px)] max-w-[calc(100%-60px)]"
                     variants={hoverEffect}

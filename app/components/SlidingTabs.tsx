@@ -41,7 +41,7 @@ export default function SlidingTabs() {
     
 
     return (
-        <ul className="relative mx-auto flex border-2 border-white p-1 my-5 z-10 bg-[#141414]">
+        <ul className="relative mx-auto md:flex border-2 border-white p-1 my-5 z-10 bg-[#141414] hidden">
             {items.map((item, key) => (
                 <Tab 
                     setPosition={setPosition} 

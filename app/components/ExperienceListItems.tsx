@@ -7,7 +7,7 @@ export default function ExperienceListItem({ children, subtitle, handleActive, i
             className="cursor-pointer flex-grow-0 flex-shrink-0 min-w-[250px]" 
             onClick={() => handleActive(id)}
         >
-            <div className="md:p-5 text-2xl  border-2 holographic-card py-10 px-20 
+            <div className="md:p-5 text-2xl  border-2 md:holographic-card py-10 px-20 
                 flex flex-col items-center md:items-start"
             >
                 <div className="w-fit whitespace-nowrap text-center md:text-left">

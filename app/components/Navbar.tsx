@@ -19,7 +19,7 @@ export default function Navbar() {
     });
 
     useEffect(() => {
-        const checkScreenSize = () => setIsMobile(window.innerWidth <= 980);
+        const checkScreenSize = () => setIsMobile(window.innerWidth <= 1190);
         
         checkScreenSize();
         window.addEventListener("resize", checkScreenSize);
@@ -48,7 +48,7 @@ export default function Navbar() {
                 <SlidingTabs />
             </div>
             
-            <div className="text-white flex flex-1 justify-end mr-8">
+            <div className="text-white flex flex-1 justify-end mr-8 my-5 z-20">
                 {isMobile ? (
                     <>
                         <a href="https://github.com/BlackPri0r" className="w-8 h-8">
