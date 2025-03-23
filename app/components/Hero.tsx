@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col gap-10">
       <div>
-        <div className="flex md:gap-10 md:pl-20 justify-center">
+        <div className="flex md:gap-10 md:pl-20 justify-center items-baseline">
           <HeroName />
           <img src="./souls.gif" className="scale-x-[-1] align-baseline hidden md:block" />
         </div>

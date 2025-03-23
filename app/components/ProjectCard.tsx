@@ -14,7 +14,7 @@ export default function ProjectCard({name, stack, description, repository, liveS
     return(
         <Appear className=" flex flex-col justify-center items-center">
             <motion.a 
-                className="relative w-full h-[320px] border-b-2 overflow-hidden"
+                className="relative w-full md:h-[320px] h-56 border-b-2 overflow-hidden"
                 href={liveSite}
                 whileHover="hover"
                 target="_blank"
