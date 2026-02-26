@@ -1,4 +1,4 @@
-import FadeAppear from "./FadeAppear";
+import FadeAppear from "../FadeAppear";
 
 export default function HeroBox() {
     return(

@@ -1,4 +1,4 @@
-import Reveal from "./RevealText";
+import Reveal from "../RevealText";
 import StackBlock from "./StackBlock";
 
 export default function Stack() {

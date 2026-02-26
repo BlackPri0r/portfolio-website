@@ -1,5 +1,5 @@
-import { ExperienceListItemProps } from "../types/ExperienceProps";
-import Reveal from "./RevealText";
+import { ExperienceListItemProps } from "../../types/ExperienceProps";
+import Reveal from "../RevealText";
 
 export default function ExperienceListItem({ children, subtitle, handleActive, id }: ExperienceListItemProps) {
     return (

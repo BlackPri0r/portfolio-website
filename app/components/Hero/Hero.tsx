@@ -1,6 +1,6 @@
 import React from "react";
 import HeroName from "./HeroName";
-import FadeAppear from "./FadeAppear";
+import FadeAppear from "../FadeAppear";
 import HeroSectioner from "./HeroSectioner";
 import HeroBox from "./HeroBox";
 

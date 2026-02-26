@@ -1,4 +1,4 @@
-import { StackBlockProps } from "../types/StackBlockProps";
+import { StackBlockProps } from "../../types/StackBlockProps";
 
 
 export default function StackBlock({children}: StackBlockProps) {

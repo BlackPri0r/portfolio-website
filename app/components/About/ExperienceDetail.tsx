@@ -1,7 +1,7 @@
-import experience from "../data/experience.json";
-import { ExperienceDetailsProps } from "../types/ExperienceProps";
+import experience from "../../data/experience.json";
+import { ExperienceDetailsProps } from "../../types/ExperienceProps";
 import AboutTextAppear from "./AboutTextAppear";
-import Reveal from "./RevealText";
+import Reveal from "../RevealText";
 import Stack from "./Stack";
 
 export default function ExperienceDetail({ active }: ExperienceDetailsProps) {

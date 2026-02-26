@@ -1,7 +1,7 @@
 'use client'
 import { motion, useMotionValueEvent, useScroll } from "framer-motion"
 import { useState } from "react"
-import { useLenisUtils } from "../context/LenisScroll"
+import { useLenisUtils } from "../../context/LenisScroll"
 import Image from 'next/image'
 
 

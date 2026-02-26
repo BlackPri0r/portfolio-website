@@ -1,4 +1,4 @@
-import FadeAppear from "./FadeAppear";
+import FadeAppear from "../FadeAppear";
 import Sectioner from "./Sectioner";
 
 export default function HeroSectioner() {

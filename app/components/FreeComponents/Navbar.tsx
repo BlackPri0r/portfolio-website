@@ -1,5 +1,5 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import SlidingTabs from "./SlidingTabs";
+import SlidingTabs from "../SlidingTabs";
 import { useState, useEffect } from "react";
 import ExternalLink from "./ExternalLinks";
 

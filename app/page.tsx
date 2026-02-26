@@ -1,10 +1,10 @@
 'use client';
-import BackToTopButton from "./components/BackToTopButton";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import ProjectShowcase from "./components/ProjectShowcase";
-import Contact from "./components/Contact";
+import BackToTopButton from "./components/FreeComponents/BackToTopButton";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/FreeComponents/Navbar";
+import About from "./components/About/About";
+import ProjectShowcase from "./components/Projects/ProjectShowcase";
+import Contact from "./components/Contact/Contact";
 
 export default function Home() {
   return (

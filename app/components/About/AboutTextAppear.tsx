@@ -1,7 +1,7 @@
 'use client'
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
-import { RevealProps } from "../types/RevealProps";
+import { RevealProps } from "../../types/RevealProps";
 
 export default function AboutTextAppear({ children, className }: RevealProps) {
     const ref = useRef(null);

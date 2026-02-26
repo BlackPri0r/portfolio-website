@@ -1,4 +1,4 @@
-import { ExternalLinkProps } from "../types/NavbarProps";
+import { ExternalLinkProps } from "../../types/NavbarProps";
 
 export default function ExternalLink ({children, link}: ExternalLinkProps) {
     return(

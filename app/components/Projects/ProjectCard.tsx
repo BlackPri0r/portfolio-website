@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { ProjectProps } from "../types/ProjectProps";
-import Appear from "./Appear";
-import Reveal from "./RevealText";
+import { ProjectProps } from "../../types/ProjectProps";
+import Appear from "../Appear";
+import Reveal from "../RevealText";
 
 const hoverEffect = {
     hover: { 

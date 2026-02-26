@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import Reveal from "./RevealText";
-import projects from "../data/projects.json"
+import Reveal from "../RevealText";
+import projects from "../../data/projects.json"
 
 export default function ProjectShowcase() {
     return(

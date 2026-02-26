@@ -1,6 +1,6 @@
-import Appear from "./Appear";
+import Appear from "../Appear";
 import { ContactUs } from "./ContactUs";
-import Reveal from "./RevealText";
+import Reveal from "../RevealText";
 
 export default function Contact() {
     return(

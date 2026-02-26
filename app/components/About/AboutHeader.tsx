@@ -1,4 +1,4 @@
-import Reveal from "./RevealText";
+import Reveal from "../RevealText";
 
 export default function AboutHeader() {
     return (

@@ -1,7 +1,7 @@
 import AboutHeader from "./AboutHeader";
 import ExperienceDetail from "./ExperienceDetail";
 import ExperienceListItem from "./ExperienceListItems";
-import experience from "../data/experience.json"
+import experience from "../../data/experience.json"
 import { useState } from "react";
 
 export default function About() {
