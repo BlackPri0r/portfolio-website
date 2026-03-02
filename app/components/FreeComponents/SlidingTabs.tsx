@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Tab from "./Tab";
+import Tab from "../Tab";
 import SlidingTabsCursor from "./SlidingTabCursor";
 
 export default function SlidingTabs() {
-    const items = ["Home", "About", "Projects", "Contact"];
-    const scrollTo = ["#home", "#about", "#projects", "#contact"]
+    const items = ["Home", "About", "Projects"];
+    const scrollTo = ["#home", "#about", "#projects"]
     const [activeIndex, setActiveIndex] = useState(0);
     const [position, setPosition] = useState({
         left: 4,

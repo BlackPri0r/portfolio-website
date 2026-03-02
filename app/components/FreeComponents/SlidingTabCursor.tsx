@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SlidingTabCursorProps } from "../types/TabProps";
+import { SlidingTabCursorProps } from "../../types/TabProps";
 
 export default function SlidingTabsCursor({position}: SlidingTabCursorProps) {
     return(

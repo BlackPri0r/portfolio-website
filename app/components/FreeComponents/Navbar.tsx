@@ -1,5 +1,5 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import SlidingTabs from "../SlidingTabs";
+import SlidingTabs from "./SlidingTabs";
 import { useState, useEffect } from "react";
 import ExternalLink from "./ExternalLinks";
 
@@ -52,10 +52,10 @@ export default function Navbar() {
                 {isMobile ? (
                     <>
                         <a href="https://github.com/BlackPri0r" className="w-8 h-8">
-                            <img src="/githubicon.svg" className="invert" alt="GitHub Icon" />
+                            <img src="/svg/githubicon.svg" className="invert" alt="GitHub Icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/lawrence-li-7bb116279/" className="ml-4">
-                            <img src="/linkedin.svg" className="w-8 h-8" alt="LinkedIn Icon" />
+                            <img src="/svg/linkedin.svg" className="w-8 h-8" alt="LinkedIn Icon" />
                         </a>
                     </>
                 ) : (
