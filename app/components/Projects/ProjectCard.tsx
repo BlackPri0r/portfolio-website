@@ -32,10 +32,10 @@ export default function ProjectCard({name, stack, description, repository, liveS
                     <div className="flex-grow h-[2px] bg-gray-300"></div>
                     
                     <a href={repository} target="_blank">
-                        <img className="invert w-8 h-8" src="./githubicon.svg"></img>
+                        <img className="invert w-8 h-8" src="./svg/githubicon.svg"></img>
                     </a>
                     <a href={liveSite} target="_blank">
-                        <img src="./live.svg" className="invert w-8 h-8"></img>
+                        <img src="./svg/live.svg" className="invert w-8 h-8"></img>
                     </a>
                 </Reveal>
                 <div className="flex my-3">
